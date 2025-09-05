@@ -1,0 +1,129 @@
+body {
+  text-align: center;
+  font-family: Raleway;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.banner {
+  margin-top: 60px;
+
+  background: linear-gradient(
+      rgb(0, 0, 0, 0.6),
+      rgba(49, 169, 221, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./assets/images/banner.png) center/cover no-repeat;
+  align-content: center;
+  border-bottom: 3px solid #31a8dd;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 260px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.banner-content h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: -webkit-linear-gradient(
+    rgba(51, 168, 219, 1),
+    rgba(20, 114, 183, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-content button {
+  font-size: 1.125rem;
+  padding: 15px 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #31a8dd;
+  margin-bottom: 60px;
+
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-image: linear-gradient(#31a8db, #1472b7);
+  border-image-slice: 1;
+}
+
+#course-content h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #31a8db;
+}
+
+.module {
+  padding: 20px 30px;
+  border-radius: 50px;
+  width: 530px;
+  border: 1px solid #33a8db;
+  margin: 0 auto 25px;
+  background-color: #252525;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+}
+
+.module span {
+  color: #33a8db;
+}
+
+#transform-world {
+  background-image: url(assets/images/woman-code.png);
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  border-top: 1px solid #31a8db;
+  border-bottom: 1px solid #31a8db;
+}
+
+#transform-world p {
+  margin-top: 180px;
+  margin-left: 200px;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-transform: lowercase;
+  max-width: 250px;
+  text-shadow: 3px 2px #33a8db;
+}
+
+#professional-challenges h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #31a8db;
+  letter-spacing: 3px;
+}
+
+#professional-challenges p {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+footer {
+  padding: 60px 0;
+  text-align: center;
+  background-image: linear-gradient(
+    rgba(50, 168, 219, 0),
+    rgba(50, 168, 219, 0.2)
+  );
+  border-top: 1px solid #33a8db80;
+}
+
+.dio-logo {
+  width: 300px;
+}
+
+footer a {
+  color: #33a8db;
+  font-weight: bold;
+  text-decoration: none;
+}
